@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <title>Naticional Museum</title>
+
+  <!--normalize css-->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+  <!--Estilo customizado --> 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+    
+    <div id="container"><!--inicio container-->
+
+      <header><!--inicio header-->
+        <div id="logo">
+          <h1><a href="National Museum">National Museum</a></h1>
+        </div>
+
+        <nav><!--Inicio navegacao-->
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Exposicoes</a></li>
+            <li><a href="">Pesquisa</a></li>
+            <li><a href="">Acervo</a></li>
+            <li><a href="">Videos</a></li>
+            <li><a href="">Fotos</a></li>
+            <li><a href="">Contato</a></li>
+          </ul>
+        </nav><!--fim navegcao-->
+  
+      </header><!--fim header-->
+
+      <div id="principal"><!--incio principal-->
+
+        <div id="conteudos"><!--incio conteudo-->
+
+          <section id="capa">
+            <img src="image/museu.png">
+          </section>
+
+          <section id="postagens"><!--incio section postagens-->
+
+            <article id="video">
+              
+              <h3>Video: Conheca o Museu</h3>
+              <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer;
+               autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+
+            </article>
+
+            <article id="mapa">
+
+              <h3>Mapa: Encontre o Museu</h3>
+              <iframe src="https://www.google.com/maps/d/embed?mid=1dwbevl7uDVwj3u2qgrIFWmcFBXo&ehbc=2E312F" width="310" height="170">
+              </iframe>
+
+            </article>
+
+            <article id="exposicoes">
+              <h3>Exposicoes</h3>
+              <ul>
+                <li>
+                  <a href="">Os assustadores de insetos</a>
+                </li>
+                <li>
+                  <a href="">O cranio de Luzia, a mulher mais antiga do Brasil</a>
+                </li>
+                <li>
+                  <a href="">Preguica gigante e tigre-dente-de-sabre</a>
+                </li>
+                <li>
+                  <a href="">Plantas do Brasil Central</a>
+                </li>
+                <li>
+                  <a href="">Teresa Cristina: A Imperatriz Arqueologa</a>
+                </li>
+                <li>
+                  <a href="">Arte com dinossauros-Paleoarte</a>
+                </li>
+                <li>
+                  <a href=""><strong>Veja todos (65)</strong></a>
+                </li>
+              </ul>
+            </article>
+
+            <article id="historia">
+              <h3>200 anos de historia</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis recusandae cupiditate assumenda dolores iure, illo facilis, suscipit hic nam voluptates
+                nostrum esse excepturi sequi perspiciatis magni voluptatum eaque possimus?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut corporis recusandae cupiditate assumenda dolores iure, illo facilis, suscipit hic nam voluptates
+                nostrum esse excepturi sequi perspiciatis magni voluptatum eaque possimus.
+              </p>
+              <a href=""><strong>Leia mais</strong></a>
+            </article>
+
+          </section><!--fim section postagens-->
+
+        </div><!--fim conteudo-->
+
+        <aside><!--incio aside-->
+          <section id="depoimento">
+            <img src="image/depoimento.png">
+          </section>
+
+          <section id="visita"><!--incio secao visita-->
+            <h4>Faca uma visita</h4>
+              <form>
+                <fieldset>
+                  <legend>Selecione uma data</legend>
+
+                  <label for="data">Data</label>
+                  <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+                  <label for="qtd">Qtd pessoas</label>
+                  <input  class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+                </fieldset>
+
+                <input class="botao" type="submit" value="verificar disponibilidade">
+
+              </form>
+
+          </section><!--fim secao visita-->
+
+          <section id="galeria">
+
+            <h4>Galeria de fotos</h4>
+
+            <a href="">
+              <img src="image/imagem1.jpg" height="93" width="93" alt="descricao imagem">
+            </a>
+
+            <a href="">
+              <img src="image/imagem2.jpg" height="93" width="93" alt="descricao imagem">
+            </a>
+
+            <a href="">
+              <img src="image/imagem3.jpg" height="93" width="93" alt="descricao imagem">
+            </a>
+
+            <a href="">
+              <img src="image/imagem4.jpg" height="93" width="93" alt="descricao imagem">
+            </a>
+
+          </section>
+
+        </aside><!--fim aside-->
+
+        <footer >
+          <p>
+            <a href="">Home</a>
+            <a href="">Exposicoes</a>
+            <a href="">Pesquisa</a>
+            <a href="">Acervo</a>
+            <a href="">Videos</a>
+            <a href="">Fotos</a>
+            <a href="">Contato</a>
+          </p>
+          <p>
+            2019 <a href="">National Museum</a> - Todos os direitos reservados.
+          </p>
+
+        </footer>
+
+      </div><!--fim principal-->
+    
+    </div><!--inicio container-->
+</body>
+</html>
